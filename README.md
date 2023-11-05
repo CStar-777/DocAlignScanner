@@ -1,9 +1,10 @@
 # DocAlignScanner
 ## 简介
 使用python语言，基于PyQt5和OpenCV库的简单的文档对齐扫描应用程序
-
+CSDN地址：https://blog.csdn.net/Transfattyacids/article/details/133972389
 
 ## 安装
+```
 numpy==1.21.6
 opencv_contrib_python==4.5.4.60
 opencv_contrib_python_headless==4.5.5.64
@@ -11,11 +12,12 @@ opencv_python==4.8.1.78
 Pillow==10.1.0
 PyQt5==5.15.10
 PyQt5_sip==12.11.0
+```
 （注意：本地环境导出，由于环境杂乱，导出的版本有多个，这里只留下了最后下载的版本，并不一定正确，仅供参考）
 或使用语句：pip requirements.txt -r
 
 ## 运行
-使用语句：python ./rum
+使用语句：`python ./rum`
 
 ## 功能
 1.	导入/保存图像
